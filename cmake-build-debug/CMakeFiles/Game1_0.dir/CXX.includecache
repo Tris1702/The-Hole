@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/phuonghoa/TheHole/Map.h
+SFML/Graphics.hpp
+-
+bits/stdc++.h
+-
+
+/home/phuonghoa/TheHole/Menu.h
+SFML/Graphics.hpp
+-
+
+/home/phuonghoa/TheHole/Player.h
+SFML/Graphics.hpp
+-
+
+/home/phuonghoa/TheHole/Ttexture.h
+SFML/Graphics.hpp
+-
+bits/stdc++.h
+-
+
+/home/phuonghoa/TheHole/main.cpp
+SFML/Graphics.hpp
+-
+Menu.h
+/home/phuonghoa/TheHole/Menu.h
+Ttexture.h
+/home/phuonghoa/TheHole/Ttexture.h
+Map.h
+/home/phuonghoa/TheHole/Map.h
+Player.h
+/home/phuonghoa/TheHole/Player.h
+
